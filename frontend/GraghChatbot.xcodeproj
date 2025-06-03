@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xcodeproj SYSTEM "file://localhost/System/Library/DTXcode/DTXcode.xcodeproj/Contents/Resources/DTXcode.xcodeproj">
+<xcodeproj>
+    <objectVersion>46</objectVersion>
+    <objects>
+        <group>
+            <key>mainGroup</key>
+            <string>GROUP_ID</string>
+        </group>
+        <group>
+            <key>GROUP_ID</key>
+            <string>PROJECT_ID</string>
+        </group>
+        <project>
+            <key>projectDirPath</key>
+            <string>.</string>
+            <key>projectName</key>
+            <string>GraghChatbot</string>
+        </project>
+    </objects>
+</xcodeproj>

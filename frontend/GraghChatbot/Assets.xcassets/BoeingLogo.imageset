@@ -1,0 +1,27 @@
+The contents of the file /gragh-chatbot/gragh-chatbot/frontend/GraghChatbot/Assets.xcassets/BoeingLogo.imageset should include the necessary image asset files and an appropriate contents.json file to define the image set. Here is the contents.json file for the BoeingLogo.imageset:
+
+{
+  "images": [
+    {
+      "idiom": "universal",
+      "filename": "BoeingLogo.png",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "filename": "BoeingLogo@2x.png",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "filename": "BoeingLogo@3x.png",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "version": 1,
+    "author": "xcode"
+  }
+}
+
+Please ensure to add the actual image files (BoeingLogo.png, BoeingLogo@2x.png, BoeingLogo@3x.png) to the BoeingLogo.imageset directory as well.
