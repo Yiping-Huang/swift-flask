@@ -38,10 +38,10 @@ def chat():
     chat_history = history
 
     # 只把最新问题发给模型
-    if model_choice == "openELM":
-        answer = query_openelm(user_question)
-    elif model_choice == "azure openai":
-        answer = query_azure_openai(user_question)
+    if model_choice == "OpenELM":
+        answer = "Hello"
+    elif model_choice == "GPT-4o":
+        answer = "Hello"
     else:
         return jsonify({"error": "Invalid model choice"}), 400
 
@@ -53,7 +53,7 @@ def chat():
     if is_plot_request:
         return jsonify({"image_url": image_url, "answer": answer})
     else:
-        return answer
+        return jsonify({"image_url": "", "answer": answer})
 
 
 if __name__ == "__main__":
