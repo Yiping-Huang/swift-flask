@@ -1,0 +1,6 @@
+streamlit
+streamlit-chat
+Pillow
+numpy
+pandas
+matplotlib
